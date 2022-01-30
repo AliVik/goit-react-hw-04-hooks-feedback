@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FeedbackList = styled.ul`
   display: flex;
@@ -17,5 +17,9 @@ export const FeedBackListItem = styled.li`
 `;
 export const Button = styled.button`
   width: 100%;
+  cursor: pointer;
   height: 100%;
+  font-family: 'Quintessential', cursive;
+  font-weight: 700;
+  background-color: transparent;
 `;

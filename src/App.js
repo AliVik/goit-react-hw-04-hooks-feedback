@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Wrapper } from './common-styles/bg-image';
 import Statistics from './components/Statistics';
 import FeedbackOptions from './components/FeedbackOptions';
 import Section from './components/Section';
@@ -32,7 +33,7 @@ export default function App() {
     return total === 0 ? 0 : Math.round((good * 100) / total);
   };
   return (
-    <>
+    <Wrapper>
       <Section title="Please leave feedback">
         <FeedbackOptions
           options={['Good', 'Neutral', 'Bad']}
@@ -54,6 +55,6 @@ export default function App() {
           )}
         </Section>
       }
-    </>
+    </Wrapper>
   );
 }

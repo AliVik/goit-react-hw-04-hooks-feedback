@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FeedbackList = styled.ul`
   margin: auto;
@@ -10,7 +10,8 @@ export const FeedbackList = styled.ul`
 
 export const FeedbackListItem = styled.li`
   list-style: none;
-
+  font-family: 'Quintessential', cursive;
+  font-weight: 700;
   :not(:first-child) {
     margin-top: 5px;
   }
